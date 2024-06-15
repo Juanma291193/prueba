@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Bienvenida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .post {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post h2 {
+            color: #4CAF50;
+        }
+        .post p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Página web con balanceo de carga 1</h1>
+    </header>
+    <nav>
+        <a href="#home">Inicio</a>
+        <a href="#about">Acerca de</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <div class="post">
+            <h2>Primer Post</h2>
+            <p>Bienvenidos a nuestro blog. Este es el primer post de muchos. Aquí compartiremos noticias, consejos, y más. ¡Gracias por visitarnos!</p>
+        </div>
+        <div class="post">
+            <h2>Segundo Post</h2>
+            <p>Hoy queremos hablar sobre la importancia de la educación continua. Nunca es tarde para aprender algo nuevo. Mantente informado y sigue creciendo.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Blog de Bienvenida. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
